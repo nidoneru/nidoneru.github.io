@@ -49,6 +49,16 @@
   li:last-child {
     border-bottom: 1px solid #ddd;
   }
+  li ul {
+    margin-top: 0.75rem;
+  }
+  li ul li {
+    border-top: none;
+    padding: 0.35rem 0;
+  }
+  li ul li:last-child {
+    border-bottom: none;
+  }
   a {
     color: #0b57d0;
     font-size: 1.1rem;
@@ -84,7 +94,17 @@
     </li>
     <li>
       <a href="https://github.com/nidoneru">GitHub</a>
-      <p class="desc">公開しているプログラム置き場です。</p>
+      <p class="desc"><strong>gedit 48.2 以上</strong>で動くプラグインを2つ公開しています。</p>
+      <ul>
+        <li>
+          <a href="https://github.com/nidoneru/gedit-session-manager">Session Manager for gedit</a>
+          <p class="desc">最新版 gedit でセッション管理が可能</p>
+        </li>
+        <li>
+          <a href="https://github.com/nidoneru/gedit-keep-selection">Keep Selection for gedit</a>
+          <p class="desc">選択した範囲以外を一気に削除（Undo 対応）</p>
+        </li>
+      </ul>
     </li>
   </ul>
 </main>
